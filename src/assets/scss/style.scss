@@ -1,0 +1,20 @@
+// Style
+$font-stack: 'Roboto', sans-serif;
+$primary-color: #000;
+
+body {
+    font-family: $font-stack;
+    color: $primary-color;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+p {
+    span {
+        color: #fff;
+        font-weight: 900;
+        background-color: green;
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+}
